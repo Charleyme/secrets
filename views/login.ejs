@@ -1,0 +1,40 @@
+<%- include('partials/header') %>
+<nav>
+    <div>
+        <i class="fas fa-key fa-2x"></i>
+        <span>Secrets</span>
+    </div>
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Sign Up</li>
+    </ul>
+    
+    
+
+</nav>
+<div class="container2">
+    <div class="info">
+        <div class="round">
+            <div class="me">
+                <form action="/login" method="POST">
+                    <label>Email</label><br>
+                    <input class="inp" type="text" name="useremail"><br>
+                    <lable>Password</lable><br>
+                    <input class="inp" type="text" name="userpassword">
+                    <button>Login</button>
+                </form>
+            </div>
+         
+        </div>
+    </div>
+    <div class="design">
+   
+    </div>
+</div>
+
+
+
+
+
+<%- include('partials/footer') %>

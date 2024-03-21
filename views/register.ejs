@@ -1,0 +1,45 @@
+<%- include('partials/header') %>
+<nav>
+    <div>
+        <i class="fas fa-key fa-2x"></i>
+        <span>Secrets</span>
+    </div>
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Sign Up</li>
+    </ul>
+    
+    
+
+</nav>
+<div class="container">
+    <div class="layout-left">
+        <div class="rec">
+        </div>
+        <div class="circle">
+        </div>
+
+    </div>
+    <div class="layout-right">
+            <div class="form">
+                <h1 class="head">Your secret is safe </h1>
+                <p class="free">Create a free account or <a href="/login">login</a></p>
+                <form action="/register" method="POST">
+                    <label>Email</label><br>
+                    <input type="email" name="useremail"><br>
+                    <label>Password</label><br>
+                    <input type="password" name="userpassword"><br>
+                    <button class="ass">Register</button>
+                </form>
+
+            </div>
+    </div>
+
+
+</div>
+
+
+
+
+<%- include('partials/footer') %>
